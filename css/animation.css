@@ -1,0 +1,966 @@
+body {
+	color: #333;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+/*
+h1,h1+p {
+	margin: 30px 15px 0;
+	font-weight: 300;
+}
+h1+p a {
+	color: #333;
+}
+h1+p a:hover {
+	text-decoration: none;
+}
+h2 {
+	margin: 60px 15px 15px 0px;
+	padding: 0;
+	font-weight: 300;
+}
+h2 span {
+	margin-left: 1em;
+	color: #aaa;
+	font-size: 85%;
+}
+*/
+.column {
+	margin: 15px 15px 0;
+	padding: 0;
+}
+.column:last-child {
+	padding-bottom: 60px;
+}
+.column::after {
+	content: '';
+	clear: both;
+	display: block;
+}
+.column div {
+	position: relative;
+	float: left;
+	width: 300px;
+	height: 200px;
+	margin: 0 0 0 25px;
+	padding: 0;
+}
+.column div:first-child {
+	margin-left: 0;
+}
+.column div span {
+	position: absolute;
+	bottom: -20px;
+	left: 0;
+	z-index: -1;
+	display: block;
+	width: 300px;
+	margin: 0;
+	padding: 0;
+	color: #444;
+	font-size: 18px;
+	text-decoration: none;
+	text-align: center;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+	opacity: 0;
+}
+figure {
+	width: 300px;
+	height: 200px;
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	overflow: hidden;
+}
+figure:hover+span {
+	bottom: -36px;
+	opacity: 1;
+}
+.effect {
+  position: relative;
+  height: auto;
+  overflow: hidden;
+}
+.effect a {
+  text-decoration: none !important;
+}
+.effect img {
+  min-width: 100%;
+  width: auto;
+  height: auto;
+}
+.effect .caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.6);
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  display: flex;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  align-items: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  z-index: 2;
+}
+.effect .caption h4 {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0px;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding: 20px;
+  position: relative;
+}
+.effect .caption h4:before,
+.effect .caption h4:after {
+  content: "";
+  display: block;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: #fff;
+}
+.effect .caption h4:before {
+  width: 40px;
+  bottom: 10px;
+}
+.effect .caption h4:after {
+  width: 20px;
+  bottom: 5px;
+}
+.text {
+   font-size: 1em;
+   line-height: 1.7;
+	padding: 10% 50px 0px 50px;
+}
+.effect .caption .text {
+  position: relative;
+  width: 100%;
+}
+.effect .caption .text p {
+  margin-bottom: 15px;
+  margin-top: 0px;
+}
+.effect .caption .text p:last-child {
+  margin-bottom: 0px;
+}
+.effect .caption a.btn {
+  color: #fff;
+  display: inline-block;
+  border: 2px solid #fff;
+  border-radius: 6px;
+  font-size: 16px;
+  padding: 10px 20px 12px 20px;
+  background-color: transparent;
+  transition: background 0.3s linear 0s;
+  margin-bottom: 20px;
+  position: relative;
+}
+.effect .caption a.btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+.examples .effect {
+  margin: auto;
+}
+.examples .effect-bar {
+  padding: 20px 0px;
+}
+.examples .effect-bar:first-child {
+  border-top: none;
+}
+.examples .effect-bar > p {
+  margin-bottom: 30px;
+}
+
+/* ANIMATION */
+/* Zoom_In */
+.Zoom_In figure img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: 0.5s ease-in-out;
+	transition: 0.5s ease-in-out;
+}
+.Zoom_In figure:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+/* Zoom_Out */
+.Zoom_Out figure img {
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+	-webkit-transition: 0.5s ease-in-out;
+	transition: 0.5s ease-in-out;
+}
+.Zoom_Out figure:hover img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+}
+
+/* Slide */
+.Slide figure img {
+	margin-left: 30px;
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+	-webkit-transition: 0.5s ease-in-out;
+	transition: 0.5s ease-in-out;
+}
+.Slide figure:hover img {
+	margin-left: 0;
+}
+
+/* Rotate */
+.Rotate figure img {
+	-webkit-transform: rotate(15deg) scale(1.4);
+	transform: rotate(15deg) scale(1.4);
+	-webkit-transition: 0.5s ease-in-out;
+	transition: 0.5s ease-in-out;
+}
+.Rotate figure:hover img {
+	-webkit-transform: rotate(0) scale(1);
+	transform: rotate(0) scale(1);
+}
+
+/* Blur */
+.Blur figure img {
+	-webkit-filter: blur(3px);
+	filter: blur(3px);
+	-webkit-transition: 0.5s ease-in-out;
+	transition: 0.5s ease-in-out;
+}
+.Blur figure:hover img {
+	-webkit-filter: blur(0);
+	filter: blur(0);
+}
+
+/* Gray_Scale */
+.Gray_Scale figure img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: 0.5s ease-in-out;
+	transition: 0.5s ease-in-out;
+}
+.Gray_Scale figure:hover img {
+	-webkit-filter: grayscale(0);
+	filter: grayscale(0);
+}
+
+/* Sepia */
+.Sepia figure img {
+	-webkit-filter: sepia(100%);
+	filter: sepia(100%);
+	-webkit-transition: 0.5s ease-in-out;
+	transition: 0.5s ease-in-out;
+}
+.Sepia figure:hover img {
+	-webkit-filter: sepia(0);
+	filter: sepia(0);
+}
+
+/* Blur_and_Gray_Scale */
+.Blur_and_Gray_Scale figure img {
+	-webkit-filter: grayscale(0) blur(0);
+	filter: grayscale(0) blur(0);
+	-webkit-transition: 0.5s ease-in-out;
+	transition: 0.5s ease-in-out;
+}
+.Blur_and_Gray_Scale figure:hover img {
+	-webkit-filter: grayscale(100%) blur(3px);
+	filter: grayscale(100%) blur(3px);
+}
+
+/* Opacity */
+.Opacity figure img {
+	opacity: 1;
+	-webkit-transition: 0.5s ease-in-out;
+	transition: 0.5s ease-in-out;
+}
+.Opacity figure:hover img {
+	opacity: 0.5;
+}
+
+/* Blink */
+.Blink figure {
+	position: relative;
+}
+.Blink figure::before {
+	position: absolute;
+	top: 0;
+	left: -75%;
+	z-index: 2;
+	display: block;
+	content: '';
+	width: 50%;
+	height: 100%;
+	background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+	background: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(255,255,255,.3) 100%);
+	-webkit-transform: skewX(-25deg);
+	transform: skewX(-25deg);
+}
+.Blink figure:hover::before {
+	-webkit-animation: Blink 0.75s;
+	animation: Blink 0.75s;
+}
+@-webkit-keyframes Blink {
+	100% {
+		left: 125%;
+	}
+}
+@keyframes Blink {
+	100% {
+		left: 125%;
+	}
+}
+
+/* Circle_Blink */
+.Circle_Blink figure {
+	position: relative;
+}
+.Circle_Blink figure::before {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	z-index: 2;
+	display: block;
+	content: '';
+	width: 0;
+	height: 0;
+	background: rgba(255,255,255,.2);
+	border-radius: 100%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	opacity: 0;
+}
+.Circle_Blink figure:hover::before {
+	-webkit-animation: Circle_Blink 0.75s;
+	animation: Circle_Blink 0.75s;
+}
+@-webkit-keyframes Circle_Blink {
+	0% {
+		opacity: 1;
+	}
+	40% {
+		opacity: 1;
+	}
+	100% {
+		width: 200%;
+		height: 200%;
+		opacity: 0;
+	}
+}
+@keyframes Circle_Blink {
+	0% {
+		opacity: 1;
+	}
+	40% {
+		opacity: 1;
+	}
+	100% {
+		width: 200%;
+		height: 200%;
+		opacity: 0;
+	}
+}
+
+/* Hover Text Effects styles */
+/* Effect #1 styles */
+
+.effect.eff-1 .caption {
+  background-color: transparent;
+  z-index: 2;
+}
+
+.effect.eff-1 .caption h4,
+.effect.eff-1 .caption .text,
+.effect.eff-1 .caption a.btn {
+  top: -100%;
+}
+
+.effect.eff-1:before,
+.effect.eff-1:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  opacity: 0;
+}
+
+.effect.eff-1:before {
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.6);
+  -webkit-transform-origin: left top;
+  transform-origin: left top;
+}
+
+.effect.eff-1:after {
+  bottom: 0;
+  right: 0;
+  background-color: transparent;
+  -webkit-transform-origin: right bottom;
+  transform-origin: right bottom;
+  box-sizing: border-box;
+}
+
+.effect.eff-1:hover:before,
+.effect.eff-1:hover:after {
+  -webkit-transform: scale(1,1);
+  transform: scale(1,1);
+  opacity: 1;
+  -webkit-transition: all 0.4s linear 0s;
+  transition: all 0.4s linear 0s;
+}
+
+.effect.eff-1:hover .caption h4,
+.effect.eff-1:hover .caption .text,
+.effect.eff-1:hover .caption a.btn {
+  top: 0;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.effect.eff-1:hover .caption h4 {
+  -webkit-transition-delay: 0.5s;
+  transition-delay: 0.5s;
+}
+
+.effect.eff-1:hover .caption .text {
+  -webkit-transition-delay: 0.45s;
+  transition-delay: 0.45s;
+}
+
+.effect.eff-1:hover .caption a.btn {
+  -webkit-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+}
+
+.effect.eff-1 img{
+	-webkit-filter: Blur(0);
+	filter: blur(0);
+	-webkit-transition: 0.5s ease-in-out;
+	transition: 0.5s ease-in-out;
+	-webkit-transform: rotate(0deg) scale(1);
+	transform: rotate(0deg) scale(1);
+}
+
+.effect.eff-1:hover img{
+	-webkit-filter: Blur(2px);
+	filter: blur(2px);
+	-webkit-transform: rotate(15deg) scale(1.3);
+	transform: rotate(15deg) scale(1.3);
+}
+
+/* effect #2 styles */
+
+.effect.eff-2 .caption {
+  background-color: transparent;
+  opacity: 0;
+  -webkit-transform: scale(0.5);
+  transform: scale(0.5);
+}
+
+  /* overlay styles */
+.effect.eff-2:before,
+.effect.eff-2:after {
+  content: "";
+  display: block;
+  top: 50%;
+  left: 50%;
+  width: 30px;
+  height: 30px;
+  background-color: rgba(0,0,0,0.3);
+  position: absolute;
+  z-index: 1;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+}
+
+.effect.eff-2:hover:before {
+  -webkit-transform: scale(30);
+  transform: scale(30);
+  -webkit-transition: all 0.3s linear 0s;
+  transition: all 0.3s linear 0s;
+}
+
+.effect.eff-2:hover:after {
+  -webkit-transform: scale(30);
+  transform: scale(30);
+  -webkit-transition: all 0.5s linear 0.2s;
+  transition: all 0.5s linear 0.2s;
+}
+
+.effect.eff-2:hover .caption {
+  opacity: 1;
+  -webkit-transform: scale(1,1);
+  transform: scale(1,1);
+  transition: all 0.2s linear 0.4s;
+}
+
+/* effect #3 styles */
+
+.effect.eff-3 .caption {
+  background-color: transparent;
+  opacity: 0;
+  -webkit-transform: rotate(-45deg) scale(1,0.3);
+  transform: rotate(-45deg) scale(1,0.3);
+  -webkit-transform-origin: left bottom;
+  transform-origin: left bottom;
+}
+
+ /* overlay styles */
+.effect.eff-3:before,
+.effect.eff-3:after {
+  content: "";
+  display: block;
+  top: 50%;
+  width: 30px;
+  height: 30px;
+  background-color: rgba(0,0,0,0.3);
+  position: absolute;
+  z-index: 1;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+  border-radius: 50%;
+}
+
+.effect.eff-3:before {
+  left: 0;
+}
+
+.effect.eff-3:after {
+  right: 0;
+}
+
+.effect.eff-3:hover:before {
+  -webkit-transform: scale(30);
+  transform: scale(30);
+  -webkit-transition: all 0.3s linear 0s;
+  transition: all 0.3s linear 0s;
+}
+
+.effect.eff-3:hover:after {
+  -webkit-transform: scale(30);
+  transform: scale(30);
+  -webkit-transition: all 0.3s linear 0.15s;
+  transition: all 0.3s linear 0.15s;
+}
+
+.effect.eff-3:hover .caption {
+  -webkit-transform: rotate(0deg) scale(1);
+  transform: rotate(0deg) scale(1);
+  opacity: 1;
+  -webkit-transition: all 0.2s linear 0.4s;
+  transition: all 0.2s linear 0.4s;
+}
+
+/* effect #4 styles */
+
+.effect.eff-4 img{
+-webkit-transform: scale(1);
+transform: scale(1);
+-webkit-transition: 0.5s ease-in-out;
+transition: 0.5s ease-in-out;
+}
+
+.effect.eff-4:hover img{
+-webkit-transform: scale(1.5);
+transform: scale(1.5);
+}
+
+.effect.eff-4 .caption {
+  background-color: transparent;
+  opacity: 0;
+  -webkit-transform: rotateY(-90deg);
+  transform: rotateY(-90deg);
+}
+
+ /* overlay styles */
+.effect.eff-4:before {
+  content: "";
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+}
+
+.effect.eff-4:hover:before {
+  box-shadow: inset 0px 0px 25px 300px rgba(0,0,0,0.6);
+  -webkit-transition: all 0.7s linear 0s;
+  transition: all 0.7s linear 0s;
+}
+
+.effect.eff-4:hover .caption {
+  -webkit-transform: rotateY(0deg);
+  transform: rotateY(0deg);
+  opacity: 1;
+  -webkit-transition: all 0.2s linear 0.4s;
+  transition: all 0.2s linear 0.4s;
+}
+
+/* effect #5 styles */
+
+.effect.eff-5 .caption {
+  background-color: transparent;
+  top: 100%;
+}
+
+  /* overlay styles */
+.effect.eff-5:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.6);
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  -webkit-transform: scale(0,1);
+  transform: scale(0,1);
+}
+
+.effect.eff-5:hover:before {
+  -webkit-transform: scale(1,1);
+  transform: scale(1,1);
+  -webkit-transition: all 0.35s cubic-bezier(0, 1.31, 1, -0.29) 0s;
+  transition: all 0.35s cubic-bezier(0, 1.31, 1, -0.29) 0s;
+}
+
+.effect.eff-5:hover .caption {
+  top: 0;
+  -webkit-transition: all 0.2s linear 0.35s;
+  transition: all 0.2s linear 0.35s;
+}
+
+/* effect #6 styles */
+
+.effect.eff-6 .caption {
+  background-color: transparent;
+  top: -100%;
+  left: 100%;
+}
+
+  /* overlay styles */
+.effect.eff-6:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.6);
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+
+.effect.eff-6:hover:before {
+  -webkit-transform: scale(1,1);
+  transform: scale(1,1);
+  -webkit-transition: all 0.4s cubic-bezier(0, 1.31, 1, -0.29) 0s;
+  transition: all 0.4s cubic-bezier(0, 1.31, 1, -0.29) 0s;
+}
+
+.effect.eff-6:hover .caption {
+  top: 0;
+  left: 0;
+  -webkit-transition: all 0.2s cubic-bezier(0, 0.5, 0.07, 0.6) 0.6s;
+  transition: all 0.2s cubic-bezier(0, 0.5, 0.07, 0.6) 0.6s;
+}
+
+/* effect #7 styles */
+
+.effect.eff-7:hover img{
+	-webkit-filter: sepia(1);
+	filter: sepia(1);
+	-webkit-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
+}
+
+.effect.eff-7 .caption {
+  background-color: transparent;
+  left: -100%;
+}
+
+  /* overlay styles */
+.effect.eff-7:before,
+.effect.eff-7:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.3);
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+
+.effect.eff-7:hover:before {
+  -webkit-transform: scale(1,1);
+  transform: scale(1,1);
+  -webkit-transition: all 0.2s linear 0s;
+  transition: all 0.2s linear 0s;
+}
+
+.effect.eff-7:hover:after {
+  -webkit-transform: scale(1,1);
+  transform: scale(1,1);
+  -webkit-transition: all 0.2s linear 0.2s;
+  transition: all 0.2s linear 0.2s;
+}
+
+.effect.eff-7:hover .caption {
+  left: 0;
+  -webkit-transition: all 0.2s linear 0.3s;
+  transition: all 0.2s linear 0.3s;
+}
+
+/* effect #8 styles */
+
+.effect.eff-8 .caption {
+  -webkit-transform: scale(0.7) rotate(120deg);
+  transform: scale(0.7) rotate(120deg);
+  opacity: 0;
+}
+
+.effect.eff-8:hover .caption {
+  -webkit-transform: scale(1) rotate(360deg);
+  transform: scale(1) rotate(360deg);
+  opacity: 1;
+  -webkit-transition: all 0.3s linear 0s;
+  transition: all 0.3s linear 0s;
+}
+
+/* effect #9 styles */
+
+.effect.eff-9 .caption {
+  -webkit-transform: scale(0,1);
+  transform: scale(0,1);
+  -webkit-transform-origin: center top;
+  transform-origin: center top;
+}
+
+.effect.eff-9:hover .caption {
+  -webkit-transform: scale(1,1);
+  transform: scale(1,1);
+  -webkit-transition: all 0.3s linear 0s;
+  transition: all 0.3s linear 0s;
+}
+
+/* effect #10 styles */
+
+.effect.eff-10 img{
+	-webkit-filter: grayscale(0) Blur(0);
+	filter: grayscale(0) blur(0);
+	-webkit-transition: 0.7s ease-in-out;
+	transition: 0.7s ease-in-out;
+	-webkit-transform: rotate(0deg) scale(1);
+	transform: rotate(0deg) scale(1);
+}
+
+.effect.eff-10:hover img{
+	-webkit-filter: grayscale(100%) Blur(5px);
+	filter: grayscale(100%) blur(5px);
+	-webkit-transform: rotate(15deg) scale(1.3);
+	transform: rotate(15deg) scale(1.3);
+}
+
+.effect.eff-10 .caption {
+  -webkit-transform: scale(1,0);
+  transform: scale(1,0);
+  -webkit-transform-origin: left center;
+  transform-origin: left center;
+}
+
+.effect.eff-10:hover .caption {
+  -webkit-transform: scale(1,1);
+  transform: scale(1,1);
+  -webkit-transition: all 0.25s linear 0s;
+  transition: all 0.25s linear 0s;
+}
+
+/* effect #11 styles */
+
+.effect.eff-11 .caption {
+  -webkit-transform: scale(0,1);
+  transform: scale(0,1);
+  -webkit-transform-origin: left top;
+  transform-origin: left top;
+}
+
+.effect.eff-11:hover .caption {
+  -webkit-transform: scale(1,1);
+  transform: scale(1,1);
+  -webkit-transition: all 0.3s linear 0s;
+  transition: all 0.3s linear 0s;
+}
+
+/* effect #12 styles */
+
+.effect.eff-12 .caption {
+  opacity: 0;
+}
+
+.effect.eff-12 .caption h4,
+.effect.eff-12 .caption a.btn {
+  opacity: 0;
+  -webkit-transition: all 0.2s linear 0.1s;
+  transition: all 0.2s linear 0.1s;
+}
+
+.effect.eff-12 .caption h4 {
+  top: 72px;
+}
+
+.effect.eff-12 .caption a.btn {
+  top: -72px;
+}
+
+.effect.eff-12:hover .caption {
+  opacity: 1;
+  -webkit-transition: all 0.5s linear 0s;
+  transition: all 0.5s linear 0s;
+}
+
+.effect.eff-12:hover .caption h4,
+.effect.eff-12:hover .caption a.btn {
+  opacity: 1;
+  top: 0;
+}
+
+/* effect #13 styles */
+
+.effect.eff-13 .caption {
+  opacity: 0;
+}
+
+.effect.eff-13:hover img{
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+	-webkit-transition: 0.5s ease-in-out;
+	transition: 0.5s ease-in-out;
+}
+
+.effect.eff-13 .caption h4,
+.effect.eff-13 .caption a.btn {
+  -webkit-transition: all 0.2s linear 0.1s;
+  transition: all 0.2s linear 0.1s;
+}
+
+.effect.eff-13 .caption h4 {
+  left: 100%;
+}
+
+.effect.eff-13 .caption a.btn {
+  left: -100%;
+}
+
+.effect.eff-13:hover .caption {
+  opacity: 1;
+  -webkit-transition: all 0.3s linear 0s;
+  transition: all 0.3s linear 0s;
+}
+
+.effect.eff-13:hover .caption h4,
+.effect.eff-13:hover .caption a.btn {
+  left: 0;
+}
+
+/* effect #14 styles */
+
+.effect.eff-14 .caption {
+  opacity: 0;
+}
+
+.effect.eff-14 .caption h4,
+.effect.eff-14 .caption .text,
+.effect.eff-14 .caption a.btn {
+  opacity: 0;
+  -webkit-transform: scale(2);
+  transform: scale(2);
+  -webkit-transition: all 0.2s linear 0.1s;
+  transition: all 0.2s linear 0.1s;
+}
+
+.effect.eff-14:hover .caption {
+  opacity: 1;
+  -webkit-transition: all 0.5s linear 0s;
+  transition: all 0.5s linear 0s;
+}
+
+.effect.eff-14:hover .caption h4,
+.effect.eff-14:hover .caption .text,
+.effect.eff-14:hover .caption a.btn {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+}
+
+/* effect #15 styles */
+
+.effect.eff-15 .caption {
+  opacity: 0;
+}
+
+.effect.eff-15 img{
+	-webkit-filter: blur(0);
+	filter: blur(0);
+	-webkit-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
+}
+
+.effect.eff-15:hover img{
+	-webkit-filter: blur(3px);
+	filter: blur(3px);
+}
+.effect.eff-15 .caption h4,
+.effect.eff-15 .caption .text,
+.effect.eff-15 .caption a.btn {
+  opacity: 0;
+  -webkit-transform: scale(0.3);
+  transform: scale(0.3);
+  -webkit-transition: all 0.2s linear 0.1s;
+  transition: all 0.2s linear 0.1s;
+}
+
+.effect.eff-15:hover .caption {
+  opacity: 1;
+  -webkit-transition: all 0.3s linear 0s;
+  transition: all 0.3s linear 0s;
+}
+
+.effect.eff-15:hover .caption h4,
+.effect.eff-15:hover .caption .text,
+.effect.eff-15:hover .caption a.btn {
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+}

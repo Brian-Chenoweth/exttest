@@ -1,0 +1,57 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<!-- Start of side bar -->
+		<div class="hidden-sm hidden-md col-lg-4 display-until-mobile mt-4">
+			<div class="sidebar w-100">
+				<div class="nav-right-column color-cpgreen shield-bg w-100">
+					<ul class="nav-right"> 
+						<!--<li><button class="back-btn" onclick="goBack()">&#x2190; Go Back</button></li>-->
+						<h2 class="side-nav">All Programs</h2>
+						<li>      
+							<label class="tree-toggler tier_1"><i class="fa fa-angle-right mr-2"></i>Academic</label>
+								<ul class="tree">
+									<li><a class="tier_2" href="../programs/academic/">All Academic Programs</a></li>
+									
+									<li><a class="tier_2" href="../programs/academic/aged-intersession.html">AgEd Intersession</a></li>
+									<li><a class="tier_2" href="../programs/academic/agriculture-internships.html">Agriculture Internships</a></li>
+									<li><a class="tier_2" href="https://fpe.calpoly.edu/" target="_blank">Fire Protection Engineering (FPE)<i class="pl-1 fas fa-external-link-alt"></i></a></li>
+									<li><a class="tier_2" href="../programs/academic/forest-stewardship-internship.html" target="_blank">Forest Stewardship Internship</a></li>
+									<li><a class="tier_2" href="https://openuniversity.calpoly.edu/" target="_blank">Open University<i class="pl-1 fas fa-external-link-alt"></i></a></li>
+									<li><a class="tier_2" href="https://gradbusiness.calpoly.edu/ms-business-analytics/" target="_blank">MS Business Analytics<i class="pl-1 fas fa-external-link-alt"></i></a></li>
+									<li><a class="tier_2" href="https://gradbusiness.calpoly.edu/ms-economics/" target="_blank">MS Quantitative Economics<i class="pl-1 fas fa-external-link-alt"></i></a></li>
+									<li><a class="tier_2" href="https://gradbusiness.calpoly.edu/ms-tax/" target="_blank">MS Taxation<i class="pl-1 fas fa-external-link-alt"></i></a></li>
+									<li><a class="tier_2" href="https://quarterplus.calpoly.edu/" target="_blank">Quarter Plus<i class="pl-1 fas fa-external-link-alt"></i></a></li>
+									<li><a class="tier_2" href="../programs/academic/special-session.html">Special Session</a></li>
+									<li><a class="tier_2" href="../programs/academic/ethnic-studies-in-hawaii.html">Ethnic Studies in Hawai&#699;i</a></li>
+								</ul>
+						</li>
+						
+						<li>
+							<label class="tree-toggler tier_1"><i class="fa fa-angle-right mr-2"></i>Professional</label>
+								<ul class="tree"> 
+									<li><a class="tier_2" href="../programs/professional/">All Professional Programs</a></li>
+									<li><a class="tier_2" href="https://gradbusiness.calpoly.edu/business-analytics/" target="_blank">Business Analytics<i class="pl-1 fas fa-external-link-alt"></i></a></li>
+									<li><a class="tier_2" href="../programs/professional/bootcamp.html">EPaCE Tech Bootcamps</a></li>
+									<li><a class="tier_2" href="/programs/special/ceus.html">Courses for Teachers</a></li>
+									<li><a class="tier_2" href="../programs/professional/online.html">Online Courses</a></li>
+									<li><a class="tier_2" href="../programs/professional/project-management-institute.html">Project Management Institute</a></li>
+								</ul>
+						</li>
+					   	<li>
+							<label class="tree-toggler tier_1"><i class="fa fa-angle-right mr-2"></i>Special Programs</label>
+								<ul class="tree">
+									<li><a class="tier_2" href="../programs/special/">All Special Programs</a></li>
+									<li><a class="tier_2" href="https://visit.calpoly.edu/" target="_blank">VISIT Cal Poly<i class="pl-1 fas fa-external-link-alt"></i> </a></li>
+									<li><a class="tier_2" href="/programs/special/ceus.html">Courses for Teachers</a></li>
+								</ul>
+						</li>
+						<li>
+							<label class="tree-toggler"><a class="tier_1" href="../programs/teach-with-us/">Teach With Us</a></label>
+						</li>
+						<li>
+							<label class="tree-toggler"><a class="tier_1" href="../programs/extension-offerings/">Extension Offerings</a></label>
+						</li>
+					</ul>	
+				</div>
+			</div>
+		</div>
+		<!-- End of side bar -->

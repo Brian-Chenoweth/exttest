@@ -1,0 +1,744 @@
+@charset "utf-8";
+/* CSS Document */
+
+/****************************************/
+/**************** Color  ***************/
+/****************************************/
+
+.green {
+	color:#154734;
+}
+
+.bg-green {
+	background-color: #154734;
+}
+
+.bg-sage-light {
+	background-color:#B6CCC2;
+	/* opacity:0.2; */
+}
+
+/****************************************/
+/**************** Height  ***************/
+/****************************************/
+
+.line-height-1 {
+	line-height: 1em;
+}
+.line-height-1x5 {
+	line-height: 1.5em;
+}
+.line-height-2 {
+	line-height: 2em;
+}
+.line-height-2x5 {
+	line-height: 2.5em;
+}
+.line-height-3 {
+	line-height: 3em;
+}
+.height-0 {
+    height: 0;
+}
+.height-1 {
+    height: 1em;
+}
+.height-1x5 {
+    height: 1.5em;
+}
+.height-2 {
+    height: 2em;
+}
+.height-20 {
+    height: 20em;
+}
+.height-25 {
+    height: 25em;
+}
+.height-30 {
+    height: 30em;
+}
+.height-35 {
+    height: 35em;
+}
+.height-40 {
+    height: 40em!important;
+}
+
+.min-height-12 {
+    min-height: 12em;
+    height: auto;
+}
+.min-height-14 {
+    min-height: 14em;
+    height: auto;
+}
+.min-height-21 {
+    min-height: 21em;
+    height: auto;
+}
+.min-height-50 {
+    min-height: 50em;
+    height: auto;
+}
+
+/* === FONT SIZING === */
+.font-size-05 {
+	font-size: 0.313em;
+}
+.font-size-06 {
+	font-size: 0.375em;
+}
+.font-size-07 {
+	font-size: 0.438em;
+}
+.font-size-08 {
+	font-size: 0.5em;
+}
+.font-size-09 {
+	font-size: 0.563em;
+}
+.font-size-10 {
+	font-size: 0.625em;
+}
+.font-size-11 {
+	font-size: 0.69em;
+}
+.font-size-12 {
+    font-size: 0.75em; /* this is more like 10.5px */
+}
+.font-size-13 {
+    font-size: 0.813em !important; 
+}
+.font-size-14 {
+    font-size: 0.875em; 
+}
+.font-size-15 {
+    font-size: 0.938em; 
+}
+.font-size-16 { /* 16px = 1em */
+	font-size: 1em;
+}
+.font-size-17 {
+	font-size: 1.063em;
+}
+.font-size-18 {
+	font-size: 1.125em;
+}
+.font-size-19 {
+	font-size: 1.188em;
+}
+.font-size-1x2 {
+	font-size:1.2em;
+}
+.font-size-20 {
+	font-size: 1.25em;
+}
+.font-size-21 {
+	font-size: 1.31em;
+}
+.font-size-22 {
+	font-size: 1.375em;
+}
+.font-size-23 {
+	font-size: 1.438em;
+}
+.font-size-24 {
+	font-size:1.5em;
+}
+.font-size-28 {
+	font-size: 1.8em; /* 28px */
+}
+.font-size-2em{
+	font-size:2em;
+}
+.font-size-2r {
+	font-size: 2rem;
+}
+.font-size-2-5em{
+	font-size:2.5em;
+}
+.font-size-3em{
+	font-size:3em;
+}
+.font-size-3r {
+	font-size: 3rem;
+}
+.font-size-5em {
+	font-size: 5em;
+}
+.font-size-6em{
+	font-size:6em;
+}
+.font-size-10em {
+	font-size:10em;
+}
+
+/* === TEXT STYLING === */
+.uppercase {
+	text-transform: uppercase;
+}
+.text-white {
+	color: #ffffff;
+}
+.text-black {
+	color: #000000;
+}
+.strong {
+	font-weight: bold;
+}
+/****************************************/
+/*************  Positioning  ************/
+/****************************************/
+
+.float-left {
+    float: left;
+}
+.float-right {
+    float: right;
+}
+.top-1 {
+	top: 1em;
+}
+.top-5p {
+    top: 5%!important;
+}
+.top-n5 {
+    top: -5px;
+    position: relative;
+}
+.top-0-important {
+    top: 0px !important;
+}
+
+.left-0x5 {
+    left: 0.5em;
+}
+
+.left-n0x5 {
+    left: -0.5em;
+}
+
+.vertical-middle {
+    vertical-align: middle !important;
+}
+
+.position-ab {
+position: absolute;
+}
+
+a {
+    color: #154734;
+}
+
+/* .container a, p a {
+  text-decoration: underline;
+} */
+
+a:hover,
+a:focus {
+  color: #154734;
+}
+
+a[href="#top"] {
+  display: block;
+  clear: both;
+  text-align: right;
+  margin: 20px 0 20px 0;
+  padding-right: 10px;
+  border-top: 1px dotted #d1cfc7;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* --- timeit.js --- */
+.hidden {
+	display:none !important;
+}
+
+/* ===================================
+    HEADER AND NAVIGATION
+====================================== */
+/* === ABSOLUTE TOP === */
+#absTop.alert {
+padding: 20px;
+background-color: #fff200;
+background-color: #f2c75c;
+color: black;
+top: 0px;
+left: 0px; 
+width: 100%;
+z-index:9999; 
+border-radius:0px;
+margin-bottom: 0px;
+	
+}
+
+#absTop span.closebtn {
+position: absolute;
+top: 0;
+right: 0;
+padding: 20px;
+font-size:2.25em;
+color: black;
+font-weight: bold;
+cursor: pointer;
+z-index:3002;
+}
+
+#absTop span.closebtn:hover {
+color: darkgreen;
+z-index:3002;
+}
+
+
+/* === TOP NAV === */
+/* #absNavBar {
+    position: fixed;
+    z-index: 3000;
+    width: 100%;
+} */
+
+#absNavBar .header-bar {
+	background-color: #154734;  
+}
+
+.nav {
+  flex-wrap: wrap;
+}
+
+/*.navbar {
+  padding: 0.7rem 1rem;
+}*/
+
+.navbar-brand {
+  font-size: 0rem;
+  line-height: 0;
+}
+
+.navbar-logo {
+    height: 50px;
+}
+
+.navbar-toggler-right {
+  z-index: 10;
+  top: 4.6rem;
+  position: absolute;
+  right: 0;
+}
+
+.nav-link,
+.dropdown-item {
+  color: #154734;
+}
+
+.navbar a {
+	text-decoration: none;
+}
+
+.tree-toggler .fa-angle-right {
+	margin-right: 3px;
+}
+
+
+
+/* --- SEARCH - TOP NAV --- */
+.searchForm input[type="text"] {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid white;
+  width: 10rem;
+  outline: none;
+  -webkit-transition: width 1s; /* Safari */
+  transition: width 1s;
+}
+.searchForm input[type="text"]:focus,
+.searchForm textarea:focus {
+  width: 15rem;
+  outline: none;
+}
+
+.searchForm input[type="text"]::placeholder {
+  color: white;
+}
+
+.searchForm input,
+select,
+textarea {
+  color: white;
+}
+
+.searchForm form {
+	background-color: rgba(255,255,255,0.00); 
+	padding: 0;
+}
+
+.mobile_search {
+  display: inherit;
+  position: absolute;
+  right: 0;
+}
+
+.mobile_search .fa-search {
+	color: white;
+}
+
+.mobile_search form {
+	background-color: rgba(255,255,255,0.00); 
+	padding: 0;
+}
+
+
+
+/* === MAIN NAV === */
+.main-nav-container {
+    background-color: #ffffff;
+    /* box-shadow: 0 4px 2px -2px #9cbbb4; */
+	border-bottom: 1px solid #9cbbb4;
+}
+
+.navbar-title {
+    font-family: utopia-std-display, serif;
+    font-weight: 300;
+    margin: 0;
+    letter-spacing: 0px;
+    white-space: nowrap;
+	line-height: 1.2;
+}
+
+.closer {
+  cursor: pointer;
+  position: absolute;
+  display: none;
+  visibility: hidden;
+  font-size: 1.3rem;
+  right: 0px;
+  color: #245c2d;
+  -webkit-transition: visibility 0s linear 300ms, opacity 300ms;
+  transition: visibility 0s linear 300ms, opacity 300ms;
+}
+
+/* === SIDE NAV === */
+
+.nav-side {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    z-index: 3500;
+    top: 0;
+    right: -100%;
+    /* background-color: #dad7c1; */
+    padding-top: 100px;
+    overflow-y: auto;
+    background: linear-gradient(217deg, rgba(21,71,52,1), rgba(21,71,52,0) 70.71%), linear-gradient(127deg, rgba(21,71,52,1), rgba(44,148,108,0) 70.71%), linear-gradient(336deg, rgba(58,145,63,.5), rgba(44,148,108,1) 70.71%);
+    background-color: #154734;
+}
+
+.nav-side ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.nav-side a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+  font-weight: 400;
+  font-weight:normal;
+}
+
+.nav-side a:hover {
+  color: #F8E08E;
+}
+
+.nav-side .tier_1 {
+    padding: 1px 38px 1px 38px;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: normal;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+}
+
+.nav-side .tier_1:hover {
+  padding: 6px 6px 6px 40px;
+  color: #F8E08E;
+  transition: 0.6s;
+}
+.nav-side .tier_1:focus {
+  color: #F8E08E;
+}
+
+.nav-side .tier_1_clicked {
+  font-weight: bold;
+  padding: 6px 6px 6px 30px;
+  font-size: 25px;
+  transition: 0.6s;
+  color: #F8E08E;
+}
+.nav-side .closebtn {
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  right: 5%;
+  font-size: 50px;
+  color: #ffffff !important;
+}
+
+.nav-side-logo {
+    margin-left: 20px;
+    position: absolute;
+    top: 20px;
+	width: 300px;
+}
+.nav-side-logo h2 {
+    font-size: 1em;
+    font-family: utopia-std-display, serif;
+    letter-spacing: 0px;
+}
+.nav-side-logo img {
+	width: 150px;
+}
+
+.nav-side .btn {
+	color: #ffffff;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler-right {
+  z-index: 10;
+  top: 4.6rem;
+  position: absolute;
+  right: 0;
+}
+
+.nav-link {
+  @include transition(opacity 500ms linear, visibility 0s linear 500ms);
+}
+
+.nav-link,
+.dropdown-item {
+  color: #154734;
+}
+
+/* === HERO === */
+
+
+
+/* ===================================
+    BRAND
+====================================== */
+
+/* === TYPOGRAPHY === */
+
+
+
+/* === COLORS === */
+/* --- Backgrounds --- */
+.bg-gray, .bg-grey {
+	background-color: #efefee;
+}
+.bg-light-alt {
+    background-color: #eeeeee !important;
+}
+
+/* --- Backgrounds - CP Colors ---  */
+.bg-cpgreen {
+	background-color:#154734;
+}
+.bg-cpgold {
+	background-color:#BD8B13;
+}
+.bg-y-polycanyon, .bg-polycanyon {
+	background-color:#F2C75C;
+}
+.bg-y-stadiumgold, .bg-stadium {
+	background-color:#F8E08E;
+}
+.bg-gray-sealgray, .bg-seal {
+	background-color:#54585A;
+}
+.bg-gray-kennedy, .bg-kennedy {
+	background-color:#8E9089;
+}
+.bg-blue-serenity, .bg-serenity {
+	background-color:#D5E4F4;
+}
+.bg-blue-skyblue, .bg-skyblue {
+	background-color:#B5E3D8;
+}
+.bg-blue-surf, .bg-surf {
+	background-color:#5CB8B2;
+}
+.bg-blue-surf-lighter {
+	background-color: rgba(92,184,178,.5);
+}
+.bg-blue-morro, .bg-morro {
+	background-color:#ABCAE9;
+}
+.bg-beige, .bg-mission, .bg-missionbeige {
+	background-color:#E4E3D3;
+}
+.bg-beige-pismosand, .bg-pismo, .bg-pismosand {
+	background-color:#CAC7A7;
+}
+.bg-green-dexter, .bg-dexter {
+	background-color:#A4D65E;
+}
+.bg-green-farmers, .bg-farmers {
+	background-color:#3A913F;
+}
+.bg-blue-coast, .bg-coast {
+	background-color:#B6CCC2;
+}
+.bg-blue-sycamore, .bg-sycamore {
+	background-color:#789F90;
+}
+.bg-green-light {
+	background-color: #E3ECE7;
+}
+
+/* --- Foregrounds --- */
+
+
+
+/* --- Foregrounds - CP Colors ---  */
+.color-cpgreen {
+	color:#154734;
+}
+.color-cpgold {
+	color:#BD8B13;
+}
+.color-y-polycanyon, .color-polycanyon {
+	color:#F2C75C;
+}
+.color-y-stadiumgold, .color-stadiumgold {
+	color:#F8E08E;
+}
+.color-gray-sealgray, .color-seal {
+	color:#54585A;
+}
+.color-gray-kennedy, .color-kennedy {
+	color:#8E9089;
+}
+.color-blue-serenity, .color-serenity {
+	color:#D5E4F4;
+}
+.color-blue-skyblue, .color-skyblue {
+	color:#B5E3D8;
+}
+.color-blue-surf, .color-surf {
+	color:#5CB8B2;
+}
+.color-blue-morro, .color-morro {
+	color:#ABCAE9;
+}
+.color-beige, .color-mission {
+	color:#E4E3D3;
+}
+.color-beige-pismosand, .color-pismo, .color-pismosand{
+	color:#CAC7A7;
+}
+.color-green-dexter, .color-dexter {
+	color:#A4D65E;
+}
+.color-green-farmers, .color-farmers {
+	color:#3A913F;
+}
+.color-blue-coast, .color-coast {
+	color:#B6CCC2;
+}
+.color-blue-sycamore, .color-sycamore {
+	color:#789F90;
+}
+
+
+/* === BUTTONS === */
+.btn-primary {
+  background-color: #154734;
+  border-radius: 0px;
+  height: auto;
+  padding: 12px 40px;
+}
+
+a:visited.btn-primary, a:active.btn-primary {
+  color:#ffffff;
+}
+
+.btn-primary:hover {
+	background-color:#1b5b42;
+	cursor:pointer;
+}
+
+.btn-cp{
+  background-color: #154734;
+  border-radius: 0px;
+  height: auto;
+  padding: 12px 40px;
+}
+
+.btn-cp:hover {
+	background-color:#1b5b42;
+	cursor:pointer;
+}
+
+.btn-secondary {  /* mission beige and pismo sand */
+  background-color: #E4E1D1;
+  border-radius: 0px;
+  height: auto;
+  padding: 12px 40px;
+}
+
+.btn-secondary:hover {
+  background-color: #CAC7A7;
+  color:#000000;
+  cursor:pointer;
+}
+
+.btn-bright {
+    background-color: #36863a;
+    border-radius: 0px;
+    height: auto;
+    padding: 12px 40px;
+}
+
+.btn-bright:hover {
+ 	background-color: #2b6b2f;
+	color:#ffffff;
+  	cursor:pointer;
+}
+
+.btn-pc { /* poly-canyon */
+    background-color: #f2c75c;
+    border-radius: 0px;
+    height: auto;
+    padding: 12px 40px;
+}
+
+.btn-pc:hover {
+ 	background-color: #edb21e;
+	color:#000000;
+  	cursor:pointer;
+}
+
+.btn:hover {
+	cursor:pointer;
+}
+
+a:link.btn-primary, a:link.btn-cp, a:link.btn-secondary, a:link.btn-bright, a:link.btn-pc {
+	text-decoration:none;
+}
+
+a:link {
+	hyphens:none;
+}

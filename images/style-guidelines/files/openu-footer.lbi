@@ -1,0 +1,109 @@
+<div class="bg-footer-gradient">
+			<div class="w-100 new-footer footer-max-width">  
+				<div class="row">
+						<!--<h2 class="my-0 color-green-dexter">Open University</h2>-->
+							<div class="col-lg-4">
+								<span class="category">Resources</span>
+								<ul>
+									<li><a href="../about/faqs.html">FAQs</a></li>
+									<li><a href="../deadlines/deadlines.html">Deadlines &amp; Important Dates</a></li>
+									<li><a href="../forms/forms.html">Forms</a></li>
+									<li><a href="../fees/fees.html">Fees &amp; Policies</a></li>
+									<li><a href="../instructor-info/instructor.html">Instructor Information</a></li>
+								</ul>
+							</div>
+							<div class="col-lg-5">
+								<span class="category">Extended Education</span>
+								<ul>
+									<li class="nos"><a class="noun social" href="https://www.facebook.com/calpolyextended" target="_blank"><i class="fab fa-facebook-square social"></i></a>
+									<a class="noun social" href="https://twitter.com/calpolysummer" target="_blank"><i class="fab fa-twitter social"></i></a>
+									<a class="noun social" href="https://www.instagram.com/calpolyextended/" target="_blank"><i class="fab fa-instagram social"></i></a>
+									</li>
+								</ul>
+								<ul>
+									<!--<li><a href="tel:805-756-2053">(805)756-2053</a></li>
+									<li><a href="mailto:openuniversity@calpoly.edu" target="_blank">openuniversity@calpoly.edu</a></li>-->
+									<li><a href="https://maps.calpoly.edu/place/bldg-052-0/@35.3006123,-120.6608836,16.6z" target="_blank">Office: Building 52 Room E34</a></li>
+								</ul>
+							</div>
+							<!--<div class="col-lg-4 mb-3 mx-0">
+								<ul>
+									<li>
+										<a href="../contact/contact.php" target="_blank" class="call-to-action">
+								<i class="fas fa-arrow-right"></i> Cologntact Us</a>
+									</li>
+								</ul>
+							</div>-->
+					
+					<!-- COUNTDOWN -->
+					<div class="col-lg-3 text-white p-0 mt-3"> 
+						<h4>Open University</h4>
+						<p class="utopia mt-0 mb-3">by Cal Poly <a href="https://extended.calpoly.edu/" target="_blank" class="">Extended Education</a></p>
+						
+						<a href="mailto:openuniversity@calpoly.edu" class="footer-email">openuniversity@calpoly.edu</a><br>
+						
+						<div class="mt-2">
+							<a href="tel:805-756-2053" class="footer-phone"><b>805-756-2053</b></a>
+						</div>
+						
+						<!--
+						<div class="countdown-box p-4 text-center">
+							<h3 class="source-sans-smallcaps text-white my-0">Summer Countdown</h3>
+							<p class="utopia mb-1">until First Day of Classes</p>
+							
+							<div class="row">
+								<div class="col-lg-2 col-sm-4 col-4">
+									<i class="fas fa-clock fa-2x color-cpgold mt-2"></i>
+								</div>
+								<div class="col-lg-10 col-sm-8 col-8">
+									<p id="countdown"></p>
+									<p id="countdown-desc">days hours mins secs</p>
+					  			</div>
+							</div>
+						</div> -->
+					</div>
+				</div>
+				
+				<div class="row mt-3">
+					<div class="col-lg-4 mx-0 my-0">
+						<ul>
+							<li>
+								<a href="../about/enroll.html" target="_blank" class="call-to-action">
+								<i class="fas fa-arrow-right"></i> Enroll Today</a>
+							</li>
+						</ul>
+					</div>
+				</div>	
+
+				<div class="w-100 row footer-cp-links pb-3">
+					<div class="col-lg-2">
+						<img src="../images/template/CalPoly_Wordmark.svg" class="footer-logo" alt="Cal Poly logo">
+					</div>
+					<div class="col-lg-10 pl-0">
+						<span class="footer-address text-white">1 Grand Avenue, San Luis Obispo, CA 93407</span>
+					</div>
+					<div class="margin-left-cplinks">
+						<div class="col-12">
+							<ul class="cp-footer-links">
+								<li><a href="https://www.calpoly.edu/" target="_blank">University Home</a></li>
+								<li><a href="https://my.calpoly.edu" target="_blank">My Cal Poly Portal</a></li>
+								<li><a href="https://maps.calpoly.edu/" target="_blank">Campus Map</a></li>
+								<li><a href="https://www.calpoly.edu/diversity-equity-and-inclusion" target="_blank">Diversity, Equity and Inclusion</a></li>
+								<li><a href="https://chw.calpoly.edu/" target="_blank">Health and Wellbeing</a></li>
+								<li><a href="https://afd.calpoly.edu/public-safety/" target="_blank">Campus Safety</a></li>
+							</ul>
+						</div>
+						<div class="col-12 mt-2">
+							<p class="small text-white footer-small-links mt-0">
+								<a href="https://accessibility.calpoly.edu/website-accessibility-statement" target="_blank" class="text-white">Web Accessibility Statement</a> 
+								&nbsp;|&nbsp; 
+								<a href="https://www.calpoly.edu/privacy" target="_blank" class="text-white">Privacy Notice</a> &nbsp;|&nbsp;
+								<a href="https://get.adobe.com/reader/" target="_blank" class="text-white">PDF Reader</a> 
+							</p>
+							<p class="text-white small mb-0 my-0" id="copyright"></p>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+</div>

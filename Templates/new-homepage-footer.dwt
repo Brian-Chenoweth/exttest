@@ -1,0 +1,562 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- TemplateBeginEditable name="PageTitle" -->
+		<title>Page Title | Extended, Professional and Continuing Education (EPaCE) | Cal Poly, San Luis Obispo</title>
+		<!-- TemplateEndEditable -->
+
+		<link rel="shortcut icon" href="../images/template/favicon.ico" type="image/x-icon">
+		
+		<!-- links to boostrap -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+		<!-- links to css -->
+		<link rel="stylesheet" type="text/css" href="../css/MJ-master.css" />
+		<!-- <link rel="stylesheet" type="text/css" href="../css/animation.css" />-->
+		<link rel="stylesheet" type="text/css" href="../css/style.css" />
+		<link rel="stylesheet" href="../js/shadowbox/shadowbox.css" />
+		
+		<!-- link to fonts -->
+		<link rel="stylesheet" href="https://use.typekit.net/woo2jxe.css">
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-3641497-7"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+		  gtag('config', 'UA-3641497-7');
+		</script>
+
+		<!-- TemplateBeginEditable name="Styles" --> 
+
+		<!-- TemplateEndEditable -->
+	</head>
+	
+	<body class="overflow-x"><!-- #BeginLibraryItem "/Library/new-nav.lbi" --><div id="absNavBar" class="width-100">
+	<div data-scroll class="container-fluid bg-green height-4x12" id="top">
+     	<div class="navbar navbar-expand-md"> <a class="navbar-brand py-0" href="http://www.calpoly.edu"> <img src="../images/CalPoly_Wordmark.svg" alt="cal poly"/></a>
+		  <div class="searchForm mobile_search navlinks position-ab right">
+			
+			<a class="mr-1 mt-1" href="https://www.calpoly.edu/search/?q=" target="_blank"><i class="fa fa-search text-white"></i></a>
+		  </div>  
+		  <button class="navbar-toggler navbar-toggler-right" id="sidemenu"> <span class="navbar-toggler-icon"></span> </button>
+		</div>
+	</div> 
+    
+	  <div class="main-nav-container container-fluid bg-sage-light">
+		<div class="navbar navbar-expand-md container-fluid height-4x12">
+			<a class="w-75 text-decoration-none navbar-title" href="../index.html">
+		   		EPaCE
+		   	</a>
+			<div class="closer"><i class="fas fa-times"></i></div>
+			<div  class="collapse navbar-collapse justify-content-end">
+				<ul class="navbar-nav">
+					<li class="nav-item dropdown topNavItem">
+					<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Programs 
+					</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="../programs">All Programs</a>
+							<a class="dropdown-item" href="../programs/academic">Academic</a>
+							<a class="dropdown-item" href="../programs/professional">Professional</a>
+							<a class="dropdown-item" href="../programs/special">Special Programs</a>
+							<a class="dropdown-item" href="../programs/teach-with-us">Teach With Us</a>
+							<a class="dropdown-item" href="../programs/extension-offerings">Extension Offerings</a>
+						</div>
+					</li>
+					<!-- added for the new registration for courses pages 01-17-2023 - brbowers -->
+					<!--li class="nav-item dropdown topNavItem">
+					<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Register
+					</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="../register/register-state.html">State Programs</a>
+							<a class="dropdown-item" href="../register/register-cpc.html">CPC Programs</a>
+						</div>
+					</li-->
+					<!-- end of new reg nav portion -->
+					<li class="nav-item dropdown topNavItem">
+					<a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						About Us
+					</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+							<a class="dropdown-item" href="../about">About</a>
+							<a class="dropdown-item" href="../about/policies.html">Policies Guidelines</a>
+							<a class="dropdown-item" href="../about/faq.html">FAQ</a>
+							<a class="dropdown-item" href="../about/fees.html">Paying Fees</a>
+							<a class="dropdown-item" href="../about/profiles.html">Staff Profiles</a>
+							<a class="dropdown-item" href="../about/state-auth.html">State Authorization</a>
+						</div>
+					</li>
+					
+					<li class="nav-item topNavItem">
+						<a class="nav-link" href="/forms/">Forms </a>
+					</li>
+					
+					<li class="nav-item topNavItem">
+						<a class="nav-link" href="../contact/contact.php">Contact</a>
+					</li>
+					
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- start of mobile sidenav -->  
+<div id="sideNav" class="nav-side">  
+	<div>
+		<a class="closebtn" >&times;</a>	
+	</div>
+	<div class="nav-side-logo">
+		<h2 class="text-white"><img src="../images/template/footer-logo.svg" alt="Cal Poly EPaCE"> | EPaCE</h2>
+	</div>
+	<div class="container">
+	<ul>				 			 			 
+         	 
+         				 			 			 
+		 <li>  
+			<label class="tree-toggler tier_1"> <i class="fas fa-angle-right mr-2"> </i> About Us</label>
+			<ul class="tree">
+				<li><a class="tier_2" href="../about/index.html">About</a></li>
+				<li><a class="tier_2" href="../about/policies.html">Policies Guidelines</a></li>
+				<li><a class="tier_2" href="../about/add-withdraw.html">Add/Withdraw Policy</a></li>
+				<li><a class="tier_2" href="../about/faq.html">FAQ</a></li>
+				<li><a class="tier_2" href="../about/fees.html">Paying Fees</a></li>
+				<li><a class="tier_2" href="../about/profiles.html">Staff Profiles</a></li>
+				<li><a class="tier_2" href="../about/state-auth.html">State Authorization</a></li>
+			</ul>
+		  </li> 
+		
+		<!-- added for the new registration for courses pages mobile 01-17-2023 - brbowers -->
+		<!--li>
+			<label class="tree-toggler tier_1"> <i class="fas fa-angle-right mr-2"> </i> Register</label>
+            <ul class="tree">
+                <li><a class="tier_2" href="../register/register-state.html">State Programs</li>
+                <li><a class="tier_2" href="../register/register-cpc.html">CPC Programs</li>
+            </ul>
+		</li-->
+		<!-- end of new reg nav mobile portion -->
+		
+		  <li>
+			<label class="tree-toggler tier_1"> <i class="fas fa-angle-right mr-2"></i> Academic</label>
+			<ul class="tree">
+									<li><a class="tier_2" href="../programs/academic/aged-intersession.html">AgEd Intersession</a></li>
+									<li><a class="tier_2" href="../programs/academic/agriculture-internships.html">Agriculture Internships</a></li>
+									<li><a class="tier_2" href="https://fpe.calpoly.edu/" target="_blank">Fire Protection Engineering (FPE)<i class="pl-1 fas fa-external-link-alt"></i></a></li>
+									<li><a class="tier_2" href="../programs/academic/forest-stewardship-internship.html">Forest Stewardship Internship</a></li>
+									<li><a class="tier_2" href="https://openuniversity.calpoly.edu/" target="_blank">Open University<i class="pl-1 fas fa-external-link-alt"></i></a></li>
+									<li><a class="tier_2" href="https://gradbusiness.calpoly.edu/ms-accounting/" target="_blank">MS Accounting <i class="pl-1 fas fa-external-link-alt"></i></a></li>
+									<li><a class="tier_2" href="https://gradbusiness.calpoly.edu/ms-business-analytics/" target="_blank">MS Business Analytics<i class="pl-1 fas fa-external-link-alt"></i></a></li>
+									<li><a class="tier_2" href="https://gradbusiness.calpoly.edu/ms-packaging-value-chain/" target="_blank">MS Packaging Value Chain<i class="pl-1 fas fa-external-link-alt"></i></a></li>
+									<li><a class="tier_2" href="https://gradbusiness.calpoly.edu/ms-economics/" target="_blank">MS Quantitative Economics<i class="pl-1 fas fa-external-link-alt"></i></a></li>
+									<li><a class="tier_2" href="https://gradbusiness.calpoly.edu/ms-tax/" target="_blank">MS Taxation<i class="pl-1 fas fa-external-link-alt"></i></a></li>
+									<li><a class="tier_2" href="https://quarterplus.calpoly.edu/" target="_blank">Quarter Plus<i class="pl-1 fas fa-external-link-alt"></i></a></li>
+									<li><a class="tier_2" href="../programs/academic/special-session.html">Special Session</a></li>
+									<li><a class="tier_2" href="../programs/academic/ethnic-studies-in-hawaii.html">Ethnic Studies in Hawai&#699;i</a></li>
+			</ul>
+		  </li>
+
+		  <li>
+			<label class="tree-toggler tier_1"> <i class="fas fa-angle-right mr-2"></i>Professional</label>
+			<ul class="tree">
+				<li><a class="tier_2" href="https://gradbusiness.calpoly.edu/business-analytics/" target="_blank">Business Analytics</a></li>
+				<li><a class="tier_2" href="../programs/professional/bootcamp.html" target="_blank">EPaCE Bootcamps</a></li>
+				<li><a class="tier_2" href="../programs/special/ceus.html">Courses for Teachers</a></li>
+				<li><a class="tier_2" href="../programs/professional/online.html">Online Courses</a></li>
+				<li><a class="tier_2" href="https://gradbusiness.calpoly.edu/packaging-value-chain/" target="_blank">Packaging Value Chain</a></li>
+				<li><a class="tier_2" href="../programs/professional/project-management-institute.html">Project Management Institute</a></li>
+			</ul>	
+		 </li>
+
+		 <li>
+			<label class="tree-toggler tier_1"> <i class="fas fa-angle-right mr-2"></i>Special Programs</label>
+			<ul class="tree">
+				<li><a class="tier_2" href="https://visit.calpoly.edu/" target="_blank">VISIT Cal Poly</a></li>
+				<li><a class="tier_2" href="../programs/special/ceus.html">Courses for Teachers</a></li>
+			</ul>	
+	     </li>
+
+		 <li>
+			<a class="tier_1 tree-toggler" href="../programs/teach-with-us" target="_blank">Teach with Us</a>
+		 </li>	
+		
+		<li>
+			<a class="tier_1 tree-toggler" href="../programs/extension-offerings">Extension Offerings</a>
+		 </li>	
+		
+		 <li>
+			<a class="tier_1 tree-toggler" href="/forms/" target="_blank">Forms</a>
+		 </li> 
+		
+		 <li>
+			<a class="tier_1 tree-toggler" href="../contact/contact.php" target="_blank">Contact</a>
+		 </li> 
+		 <li>
+			<label class="tree-toggler tier_1"><a href="https://www.calpoly.edu/search/?q=">Search <i class="fa fa-search"></i></a></label>
+		 </li>
+	</ul>  
+  </div>
+
+  <div class="container text-white pl-5">
+	  <p class="address">
+		<a href="https://maps.calpoly.edu/place/bldg-052-0/@35.3006123,-120.6608836,16.6z" target="_blank"><i class="fas fa-map-marker-alt">&nbsp;</i>Building 52 Room 34</a>
+		1 Grand Avenue<br>
+		San Luis Obispo, CA 93407-0721
+	  </p>
+	  <a href="tel:805-756-1477"><i class="fas fa-phone" aria-hidden="true">&nbsp;</i>(805)756-2053</a>
+	  <ul class="nav">
+			<li class="nav-item">
+				<a class="nav-link" href="https://www.facebook.com/calpolyextended" target="_blank"><span class="fab fa-facebook-square"></span></a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="https://twitter.com/CalPolyExtended" target="_blank"><span class="fab fa-twitter-square"></span></a>
+			</li>
+			<li class="nav-item">
+				<a class="nav-link" href="https://www.instagram.com/calpolyextended/" target="_blank"><span class="fab fa-instagram"></span></a>
+			</li>
+		</ul>
+  </div>
+</div>	<!-- #EndLibraryItem --><!-- TemplateBeginEditable name="Content" -->
+<div class="main-content content">
+<div id="overlay"></div>
+	<div id="wrapper">
+		<div id="welcomeGraphic" class="full-width-graphic">
+		  <video class="fill hidden-md-down" autoplay loop muted>
+			<source src="videos/extended_loop_030618.mp4" type="video/mp4">
+		  </video>
+		  
+		  <h1 class="apply_text_home" align="left"  style="text-shadow: #000 1px 1px 6px;"><span style="font-style: normal;">EXTENDED<br></span>EDUCATION</h1>
+		</div>
+		
+		<div id="pageIntroOld">
+			
+			
+		  <div class="container" style="padding-bottom:100px;">
+			<p class="introWelcome">Extended, Professional and Continuing Education (EPaCE) at Cal Poly</p>
+			<hr class="introHrLine hr_style" style="color: green;">
+			<p class="introDesc">Cal Poly has opportunities for extended learning in subjects such as writing, art, brewing, religion, and more. View <a href="Programs/index.html">all of the Extended, Professional and Continuing Education (EPaCE) programs</a> to explore. </p>
+		  </div>
+		</div>
+		
+		<div id="mainBasicInfo" style="margin-top: -20px; padding-bottom: 7%;">
+		  <div class="container middle_header">
+			<p class="introWelcome" style="text-align: center;">Featured Programs</p>
+			<hr class="introHrLine hr_style" style="color: green; border-width:0px;">
+			<!-- Rotator -->
+			<div class="row cpCarousel" style="height: auto;">
+			  <div class="col-md-8 col-sm-12 carouselDiv">
+				<div id="ftNews" class="carousel slide carousel-fade" data-ride="carousel">
+				  <ol class="carousel-indicators" >
+					<li data-target="#ftNews" data-slide-to="0" class="active"></li>
+					<li data-target="#ftNews" data-slide-to="1"></li>
+					<li data-target="#ftNews" data-slide-to="2"></li>
+					<li data-target="#ftNews" data-slide-to="3"></li>
+				  </ol>
+				  <div class="carousel-inner">
+					<div class="carousel-item active"> <img class="d-block carouselImg" style="height: auto;" src="../images/homepage/cloud-banner2.jpg" alt="First Slide">
+					  <div class="carousel-caption">
+						<h5>Cal Poly Cloud Professional Certificate</h5>
+						<p>The Cloud Professional Certificate program is an online, non-credit class series designed for those seeking to understand cloud technology and prepare for a career managing and developing solutions using cloud technologies.</p>
+						<a href="http://extended.calpoly.edu/Programs/Professional/index.html" style="color: gray;"><em><u>More About</u></em><span style="padding-left: 5px;"><i class="fas fa-forward"></i></span></a> </div>
+					</div>
+					  
+					<!-- rotator for Intro to Painting -->
+					<div class="carousel-item"> <img class="d-block carouselImg" style="height: auto;" src="../images/homepage/intro-to-painting-rotator.jpg" alt="painting">
+					  <div class="carousel-caption">
+						<h5>Introduction to Painting</h5>
+						<p>If you have ever wanted to learn to paint, but don't know where to start, this is the class for you. In this 4 week class, you will be following the step-by-step demonstrations each week in order to completely paint a different landscape each time.</p>
+						<a href="Programs/Life-and-Culture/drawing-and-painting.html" style="color: gray;"><em><u>More About</u></em><span style="padding-left: 5px;"><i class="fas fa-forward"></i></span></a> </div>
+					</div>
+					  
+					
+					<!-- rotator for Coding Bootcamp -->
+					<div class="carousel-item"> <img class="d-block carouselImg" style="height: auto;" src="../images/homepage/coding-banner.jpg" alt="coding bootcamp slide">
+					  <div class="carousel-caption">
+						<h5>Extended, Professional and Continuing Education (EPaCE) Coding Bootcamp</h5>
+						<p>For the first time, Extended, Professional and Continuing Education (EPaCE) is offering a comprehensive coding program powered by the leading coding bootcamp, Fullstack Academy. Whether you are a complete beginner or a seasoned programmer, this bootcamp will help you develop not only programming skills, but also essential professional skills in landing your dream tech job.</p>
+						<a href="http://extended.calpoly.edu/Programs/Professional/bootcamp.html" style="color: gray;"><em><u>More About</u></em><span style="padding-left: 5px;"><i class="fas fa-forward"></i></span></a> </div>
+					</div>
+
+					<!-- rotator for Wine Business Management -->
+					<div class="carousel-item"> <img class="d-block carouselImg" style="height: auto;" src="../images/homepage/wine-business-banner.jpg" alt="business management slide">
+					  <div class="carousel-caption">
+						<h5>Wine Business Management</h5>
+						<p>An advanced understanding of wine business is essential to success in an evolving industry and an ever-changing marketplace. This important industry certification was inspired by the Sonoma MBA in Wine Business to facilitate professional growth through advanced knowledge of wine business marketing, operations, and finance and is offered through a new partnership with Extended, Professional and Continuing Education (EPaCE).</p>
+						<a href="Programs/Professional/wine-business.html" style="color: gray;"><em><u>More About</u></em><span style="padding-left: 5px;"><i class="fas fa-forward"></i></span></a> </div>
+					</div>
+				  </div>
+				  <a class="carousel-control-prev" href="#ftNews" role="button" data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="carousel-control-next" href="#ftNews" role="button" data-slide="next"> <span class="carousel-control-next-icon" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
+			  </div>
+			  <div class="col-md-4 col-sm-12" >
+				<div id="rotator-caption"></div>
+			  </div>
+			</div>
+			<!-- end of rotator -->
+			  
+			<!-- start of cards -->
+			<div class="container row" style="margin-bottom: 50px;"> 
+			  <div class="col-lg-4 col-md-6 col-sm-12">
+				<div class="custom-card-link">
+				  <div class="card certificate_program"> <img class="card-img-top" src="../images/homepage/painting.jpg" alt="Card image cap">
+					<div class="card-body">
+					  <h4 style="margin-top:10px;">Introduction to Painting</h4>
+					  <p class="card_text">In this 4 week class, you will be following the step-by-step demonstrations each week in order to completely paint a different landscape each time.</p>
+					  <a href="Programs/Life-and-Culture/drawing-and-painting.html" style="color: gray;"><em><u>Learn More</u></em><span style="padding-left: 5px;"><i class="fas fa-forward"></i></span></a> </div>
+				  </div>
+				</div>
+			  </div>
+			  <div class="col-lg-4 col-md-6 col-sm-12">
+				<div class="custom-card-link">
+				  <div class="card certificate_program"> <img class="card-img-top" src="../images/life_and_culture/writers/home-card-writers.jpg" alt="Card image cap">
+					<div class="card-body">
+					  <h4 style="margin-top:10px;">Self-Published Success: Proven Strategies to Publish a Bestseller</h4>
+					  <p class="card_text">Amplify your voice and leave a legacy by learning how to get your writing published. </p>
+					  <a href="Programs/Life-and-Culture/writers-program.html" style="color: gray;"><em><u>Learn More</u></em><span style="padding-left: 5px;"><i class="fas fa-forward"></i></span></a> </div>
+				  </div>
+				</div>
+			  </div>
+			  <div class="col-lg-4 col-md-6 col-sm-12">
+				<div class="custom-card-link">
+				  <div class="card certificate_program"> <img class="card-img-top" src="../images/homepage/camera.jpg" alt="Card image cap">
+					<div class="card-body">
+					  <h4 style="margin-top:10px;">Beginning Photography</h4>
+					  <p class="card_text">This is a beginning photography course exploring the basic elements of the medium, from analog through digital image-making.</p>
+					  <a href="Programs/Life-and-Culture/photography.html" style="color: gray;"><em><u>Learn More</u></em><span style="padding-left: 5px;"><i class="fas fa-forward"></i></span></a> </div>
+				  </div>
+				</div>
+			  </div>
+			  <br/>
+			  <p><span style="font-weight: bold;">*The Extended, Professional and Continuing Education (EPaCE) Coding Bootcamp, in partnership with FullStack Academy, is neither taught by Cal Poly faculty, nor affiliated with Cal Poly’s Department of Computer Science and Software Engineering.</span></p>
+			</div>
+			<!-- end of cards -->
+		  </div>
+		</div>
+		
+		<div class="intro" style="margin-top: -50px;">
+			  <div class="bsContainer basicInfo" style="padding-top: 1px;">
+				<h2 style="color: black; text-align: left;"><i>About EPaCE</i></h2>
+				<br/>
+				<div class="row">
+				  <div class="col-lg-7 col-md-8 col-sm-12" style="padding-bottom: 10px; padding-left: 0; padding-right: 0;"> 
+					  <img src="../images/students_about_us.jpg" alt="Two students talking header image"> 
+				  </div>
+				  <div class="col-lg-5 col-md-8 col-sm-12" style="padding-bottom: 10px; padding-left: 0; padding-right: 0; text-align: left;">
+					<div class="container">
+						<h1 style="font-size: 30px; font-weight: 900;">EPaCE</h1>
+						<p>
+							Cal Poly’s Extended, Professional and Continuing Education (EPaCE) Program expands the opportunities for students at and outside of the CSU. Educational programs and workshops are available to fulfill credit, and are available during the summer. The courses offered range from life and experience classes to math and science.<br/>
+							<br/>
+							<a href="about/about.html" style="color: gray;"><em><u>More About</u></em><span style="padding-left: 5px;"><i class="fas fa-forward"></i></span></a>
+							
+							<div style="margin: 30px 0px 50px 0px;"> <a href="https://calpoly.augusoft.net/index.cfm" target="_blank" class="btn-lg btn-primary btn-apply">Register Here for Classes</a> </div>
+						</p>
+					</div>
+				  </div>
+				</div>
+				<h2 style="color: black; text-align: left;"><i>2019 Fall Catalog</i></h2>
+				<iframe allowfullscreen allow="fullscreen" style="border:none;width:100%;height:326px;" src="//e.issuu.com/embed.html?d=extendededfall2019catalog&u=cont-ed"></iframe>
+			  </div>
+		
+			   <!-- new homepage cards aug 2019-->
+				<div class="row mt-5" style="max-width: 100%;">	
+					<div class="col-xl-2 col-md-4 mb-5 p-0 homepage-card">
+						<a href="Programs/Academic/index.html">
+							<div class="homepage-card-div" style="background-image:url('../images/card-images/academic-card.jpg');">
+								<div class="homepage-card-gradient">
+									<p class="homepage-card">
+										Academic
+									</p>
+								</div>
+							</div>
+						</a>
+					</div>
+				
+					<div class="col-xl-2 col-md-4 mb-5 p-0 homepage-card">
+						<a href="Programs/Life-and-Culture/index.html">
+							<div class="homepage-card-div" style="background-image:url('../images/card-images/lifeandculture-card.jpg');">
+								<div class="homepage-card-gradient">
+									<p class="homepage-card">
+										Life &amp; Culture
+									</p>
+								</div>
+							</div>
+						</a>
+					</div>
+				
+					<div class="col-xl-2 col-md-4 mb-5 p-0 homepage-card">
+						<a href="Programs/Professional/index.html">
+							<div class="homepage-card-div" style="background-image:url('../images/card-images/professional-card.jpg');">
+								<div class="homepage-card-gradient">
+									<p class="homepage-card">
+										Professional
+									</p>
+								</div>
+							</div>
+						</a>
+					</div>
+				
+					<div class="col-xl-2 col-md-4 mb-5 p-0 homepage-card">
+						<a href="Programs/Special/index.html">
+							<div class="homepage-card-div" style="background-image:url('../images/card-images/special-programs.jpg');">
+								<div class="homepage-card-gradient">
+									<p class="homepage-card">
+										Special Programs
+									</p>
+								</div>
+							</div>
+						</a>
+					</div>
+					<div class="col-xl-2 col-md-4 mb-5 p-0 homepage-card">
+						<a href="Programs/Teach-With-Us/index.html">
+							<div class="homepage-card-div" style="background-image:url('../images/card-images/teaching-card.jpg');">
+								<div class="homepage-card-gradient">
+									<p class="homepage-card">
+										Teach
+									</p>
+								</div>
+							</div>
+						</a>
+					</div>
+				
+					<div class="col-xl-2 col-md-4 mb-5 p-0 homepage-card">
+						<a href="about/profiles.html">
+							<div class="homepage-card-div" style="background-image:url('../images/card-images/staff-card.jpg');">
+								<div class="homepage-card-gradient">
+									<p class="homepage-card">
+										Staff
+									</p>
+								</div>
+							</div>
+						</a>
+					</div>
+				</div>
+				<!-- end of new homepage cards -->
+
+		</div>	
+		
+		<!-- TemplateEndEditable -->
+		
+		<!-- new footer-->
+		<div class="w-100 new-footer">
+			<div class="row">
+				<div class="col-sm-3">
+					<img src="../images/template/footer-logo.svg" class="w-75 mt-3">
+				</div>
+				<div class="col-sm-3">
+					<h1>EPaCE</h1>
+					<ul>
+						<li><a href="#">Register for Classes</a></li>
+						<li><a href="#">About Extended, Professional and Continuing Education (EPaCE)</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+					<h1>PROGRAMS</h1>
+					<ul>
+						<li><a href="#">All Programs</a></li>
+						<li><a href="#">Academic</a></li>
+						<li><a href="#">Life &amp; Culture</a></li>
+						<li><a href="#">Professional</a></li>
+						<li><a href="#">Special Programs</a></li>
+						<li><a href="#">Teach With Us</a></li>
+					</ul>
+				</div>
+				<div class="col-sm-3">
+					<h1>SOCIAL MEDIA</h1>
+					<ul>
+						<li><a href="#"><i class="fab fa-facebook-square"></i></a>
+						<a href="#"><i class="fab fa-twitter"></i></a>
+						<a href="#"><i class="fab fa-instagram"></i></a>
+						</li>
+					</ul>
+					
+					<h1>ADDRESS</h1>
+					<ul>
+						<li>
+							Extended, Professional and Continuing Education (EPaCE)<br>
+							San Luis Obispo, CA 93407
+						</li>
+					</ul>
+				</div>
+				<div class="col-sm-3">
+					<h1>CONTACT</h1>
+					<ul>
+						<li><a href="#"><i class="fas fa-phone"></i> (805)756-2053</a></li>
+						<li><a href="#"><i class="fas fa-envelope"></i>extended@calpoly.edu</a></li>
+					</ul>
+					
+					<h1>ACCESSIBILITY</h1>
+						<ul>
+							<li><a href="#">Web Accessibility Statement </a></li>
+							<li><a href="#">Privacy Notice</a></li>
+						</ul>
+				</div>
+				
+				<p class="ml-3">&copy;2019 California Polytechnic State University</p>
+			</div>
+		</div>
+		<div class="w-100 new-footer-banner">
+			<ul>
+				<li><a href="#">Cal Poly Home</a></li>
+				<li><a href="#">Directory</a></li>
+				<li><a href="#">Campus Maps &amp; Directions</a></li>
+				<li><a href="#">University Store</a></li>
+				<li><a href="#">Calendar</a></li>
+				<li><a href="#">Employment</a></li>
+				<li><a href="#">Campus Policies</a></li>
+				<li><a href="#">Contact Us</a></li>
+			</ul>
+		</div>
+		
+		</div>
+	
+	</div>
+	
+ 	<script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+	<script src="../js/jquery.min.js"></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<script src="../js/smooth-scroll.min.js"></script>
+	<script src="../js/shadowbox/shadowbox.js"></script> 		
+	<script src="../js/page_func.js"></script>
+	<script src="../js/menu.js"></script>
+	<script src="../js/panel.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="../js/programs-nav-scroll.js"></script>
+
+	<script type="text/javascript">
+		smoothScroll.init();
+		Shadowbox.init();
+	</script>
+	<script src="../js/page-highlight.js"></script>
+	    
+    
+	<!-- TemplateBeginEditable name="Scripts" -->
+    <script type="text/javascript">
+				$(document).ready(function() {
+					$('.homepage-card').hover(function() {
+						$(this).stop().animate({
+							opacity: 1
+						}).siblings().stop().animate({
+							opacity: 0.6
+						});
+					}, function() {
+						$(this).siblings().stop().animate({
+							opacity: 1
+						});
+					});		
+				});
+		</script>
+	<!-- TemplateEndEditable -->
+	
+			
+</body>
+
+
+
+</html>

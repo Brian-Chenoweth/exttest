@@ -1,0 +1,103 @@
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+ <div class="bg-footer-gradient zee-two pos-rel">
+	<div class="w-100 new-footer cpgold-border-top">
+		<div class="row px-4">
+			<div class="col-md-3">
+				<img src="../images/template/CalPoly_Wordmark.svg" class="w-75 mt-3 footer-logo" alt="Cal Poly logo">
+			</div>
+			<div class="col-sm-4 col-md-3">
+				<h2>EPaCE</h2>
+				<ul>
+					<li><a href="../about/">About Us</a></li>
+					<li><a href="../about/profiles.html">Staff Profiles</a></li>
+					<li><a href="../about/faq.html">FAQs</a></li>
+					<li><a href="../about/fees.html">Paying Fees</a></li>
+				</ul>
+			</div>
+			<div class="col-sm-4 col-md-3">
+				<h2>Programs</h2>
+				<ul>
+					<li><a href="../programs/academic/">Academic Programs</a></li>
+					<li><a href="../programs/professional/">Professional Programs</a></li>
+					<li><a href="../programs/special/">Special Programs</a></li>
+				</ul>
+			</div>
+			<div class="col-sm-4 col-md-3">
+				<h2>Contact</h2>
+				<ul>
+					<li><a href="https://www.facebook.com/calpolyextended" target="_blank"><i class="fab fa-facebook-square"></i></a>
+					<a href="https://www.instagram.com/calpolyextended/" target="_blank"><i class="fab fa-instagram"></i></a>
+					</li>
+				</ul>
+				<ul>
+					<li><a href="tel:805-756-2053"><i class="fas fa-phone"></i> (805) 756-2053</a></li>
+					<li><a href="mailto:extended@calpoly.edu" target="_blank"><i class="fas fa-envelope"></i>extended@calpoly.edu</a></li>
+					<li>Mustang Business Park</li>
+				</ul>
+			</div>
+		</div>
+		<div class="row px-4 pt-3">
+			<div class="col-md-3">
+
+			</div>
+			<div class="col-sm-4 col-md-3">
+				<ul>
+					<li>
+						<a href="../programs/" class="call-to-action">
+						<i class="fas fa-arrow-right"></i> Upskill &amp; Reskill</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-sm-4 col-md-3">
+				<ul>
+					<li><a href="../programs/teach-with-us/" class="call-to-action">
+						<i class="fas fa-arrow-right"></i> Teach With Us</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-sm-4 col-md-3">
+				<ul>
+					<li><a href="mailto:extended@calpoly.edu" target="_blank" class="call-to-action">
+						<i class="fas fa-arrow-right"></i> Email to set up an appointment</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="w-100 row center-mobile">
+		<div class="max-1400 row px-4">
+			<div class="col-md-6 pl-0">
+				<p class="text-white small mb-0 my-0" id="copyright"></p>
+				<p class="small text-white footer-small-links mt-0">
+					<a href="https://accessibility.calpoly.edu/website-accessibility-statement" target="_blank" class="text-white">Web Accessibility Statement</a> 
+								&nbsp;|&nbsp; 
+					<a href="https://www.calpoly.edu/privacy" target="_blank" class="text-white">Privacy Notice</a> &nbsp;|&nbsp;
+					<a href="https://get.adobe.com/reader/" target="_blank" class="text-white">PDF Reader</a> 
+				</p>
+			</div>
+			<div class="col-md-6">
+			</div>
+		</div>
+	</div>
+	<div class="w-100 row footer-cp-links pb-5">
+		<div class="max-1400 row px-4">
+				<hr class="w-100 m-0">
+				<div class="col-md-3 col-lg-2 col-xl-2 pl-0">
+					<h2 class="cp-links mb-0 mr-2">Cal Poly Links</h2>
+				</div>
+				<div class="col-md-9 mt-2 col-lg-10 pl-0">
+					<ul>
+						<li><a href="https://www.calpoly.edu/" target="_blank">University Home</a></li>
+						<li><a href="https://idp.calpoly.edu/idp/profile/cas/login?execution=e1s1" target="_blank">My Cal Poly Portal</a></li>
+						<li><a href="https://maps.calpoly.edu/" target="_blank">Campus Map</a></li>
+						<li><a href="https://www.calpoly.edu/diversity-equity-and-inclusion" target="_blank">Diversity, Equity, and Inclusion</a></li>
+						<li><a href="https://chw.calpoly.edu/" target="_blank">Health and Wellbeing</a></li>
+						<li><a href="https://afd.calpoly.edu/public-safety/" target="_blank">Campus Safety</a></li>
+						</ul>
+				</div>
+		</div>
+	</div>
+</div>
+

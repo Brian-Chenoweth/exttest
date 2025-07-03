@@ -1,0 +1,137 @@
+.shield-bg {
+    background-image: url("shield.png");
+    background-size: cover;
+    background-size: 175px 200px;
+    background-position: top right;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.nav-right-column {
+    background-color: #E3ECE7;
+    border-top: 5px solid #3A913F;
+    height: auto;
+    z-index: -1000;
+}
+ul.nav-right {
+    list-style-type: none;
+    padding: 10px 20px 10px 20px;
+    font-weight: 300;
+}
+ul.nav-right li {
+    list-style-type: none;
+}
+.nav-right li {
+    margin: 0px 0px 0px 10px;
+    width: 100%;
+}
+.nav-right .tier_1, .nav-right a.tier_1 {
+    color: #154734;
+    font-size: .9em;
+    font-weight: normal;
+}
+.nav-right label {  
+    margin-bottom: 0;
+}
+.nav-right label {
+    cursor: pointer;
+}
+.sidebar .tier_1 {
+    padding: 1px 6px 1px 5px;
+    text-decoration: none;
+    display: block;
+    transition: 0.3s;
+}
+.nav-right .tier_1 i {
+    color: #BD8B13;
+}
+.nav-right ul.tree {
+    padding-left: 0px;
+    margin-bottom: 10px;
+}
+.nav-right ul {
+    line-height: 1.7;
+}  
+.nav-right .tier_1, .nav-right a.tier_1 {
+    color: #154734;
+    font-size: .9em;
+    font-weight: normal;
+}
+.sidebar .tier_1_clicked {
+    background-color: #F8E08E;
+}
+.sidebar .tier_1:hover {
+    padding: 6px 6px 6px 10px;
+    color: #007e29;
+    transition: 0.6s;
+}
+.nav-right a.tier_2 {
+    margin-left: 10px;
+    font-size: .8em;
+    text-decoration: none;
+}
+
+/* icon */
+.fa-angle-right:before {
+    content: "\f105";
+}
+
+/* colors */
+.color-cpgreen {
+    color: #154734;
+}
+.bg-cpgreen {
+    background-color: #154734;
+}
+.text-white {
+    color: #fff!important;
+}
+
+/* mobile styles */
+.in-this-section {
+    text-transform: uppercase;
+    font-family: source-sans-pro, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+.btn {
+    background-repeat: no-repeat;
+    border: none;
+    overflow: hidden;
+    outline: none;
+}
+.show {
+    display: block;
+}
+@media screen and (max-width: 768px) {
+	ul.nav-right {
+		border-left: none;
+		margin: auto;
+		text-align: center;
+		padding-left: 0px;
+	}
+	ul.nav-right li {
+		margin: 0;
+	}
+	.nav-right li {
+		width: 80%;
+		text-align: center;
+		height: 100%;
+		padding: 0px;
+		display: inline-block;
+	}
+}
+
+/* text */
+h2.side-nav {
+    font-size: 1.3rem;
+    font-family: source-sans-pro, sans-serif;
+    font-weight: 600;
+    margin: 0;
+    padding-bottom: 10px;
+    font-variant: all-small-caps;
+    letter-spacing: 1px;
+}
+
+.collapse:not(.show) {
+    display: none;
+}
